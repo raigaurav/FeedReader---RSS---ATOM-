@@ -1,0 +1,22 @@
+
+body {
+	background-color: #EEE5DC;
+}
+
+.formDiv {
+	position: relative;
+	background-color: white;
+	color: teal;
+	width: 500px;
+	height: 550px;
+	top: 50px;
+	left: 30%;
+	border-radius: 10px;
+}
+
+#registerform {
+	position: relative;
+	top : 20px;
+	margin-left: 30px;
+	font-family: Ubuntu
+}

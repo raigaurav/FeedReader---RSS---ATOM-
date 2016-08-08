@@ -1,0 +1,79 @@
+body {
+	font-family: Ubuntu;
+	background-image: url("../images/school.png");
+}
+
+#tabs {
+position: relative;
+left: 30px;	
+}
+
+#tabs img {
+	width: 350px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.contents h3 {
+	color: teal;
+	font-family: Ubuntu;
+}
+
+.detailDiv {
+	position: relative;
+	margin-left : 40px;
+	margin-right : 30px;
+	font-family: Ubuntu;
+}
+
+.ui-tabs-vertical {
+	width: 74em;
+	border-radius: 10px;
+}
+
+.ui-tabs-vertical .ui-tabs-nav {
+	position: relative;
+	padding: .2em .1em .2em .2em;
+	float: left;
+	padding: .2em .1em .2em .2em;
+	float: left;
+	width: 40%;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	overflow: hidden; display : block;
+	border-bottom-width: 1px !important;
+	border-right-width: 0 !important;
+	margin: 0 -1px .2em 0;
+	width: 100%;
+	border-bottom-width: 1px !important;
+	display: block;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a {
+	font-size: medium;
+}
+
+.logoutDiv {
+	float : right;
+	clear : both;
+	font-weight: bold;
+	color : teal;
+	position : relative;
+	top: 30px;
+	right: 20px;
+	
+}
+
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	padding-bottom: 0;
+	padding-right: .1em;
+	border-right-width: 1px;
+}
+
+.ui-tabs-vertical .ui-tabs-panel {
+	padding: 1em;
+	float: right;
+	width: 40em;
+}
